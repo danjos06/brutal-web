@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url("https://use.typekit.net/znv4jxn.css");
+
+@import "tailwindcss";
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Caesar Dressing';
+    background-image: url('./assets/bg.jpeg');
+    background-position: center;
+    backdrop-filter: brightness(50%) blur(5px);
+  }
+  
+  #card p{
+    font-family: "miller-text", serif;
+  }
