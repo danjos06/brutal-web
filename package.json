@@ -1,7 +1,6 @@
 {
   "name": "brutal-web",
   "homepage": "https://danjos06.github.io/brutal-web/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
