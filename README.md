@@ -1,8 +1,5 @@
-# React + Vite
+# Projeto em react para gerenciar o RPG Brutal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Esse projeto foi feito com o intuito de aprender e praticar o uso do React e suas bibliotecas.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ainda está em desenvolvimento, mas os contadores já funcionam com seus devidos limitadores.
