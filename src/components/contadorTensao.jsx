@@ -4,6 +4,7 @@ import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons'
 import React, {useState } from "react"
 import tensao from '../assets/tensao.png'
+import '../App.css';
 
 function ContadorTensao(){
 

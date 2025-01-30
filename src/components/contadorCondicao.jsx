@@ -4,6 +4,7 @@ import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons'
 import React, {useState } from "react"
 import sangue from '../assets/sangue.png'
+import '../App.css';
 
 function ContadorCondicao(){
 
