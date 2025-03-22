@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CuidarFeridas from "./vantagensgerais/cuidarFeridas";
 import TomarJeito from "./vantagensgerais/tomarJeito";
 import ChoqueRealidade from "./vantagensgerais/choqueRealidade";
@@ -120,21 +120,23 @@ function PaginaRegras() {
                     <p className="text-2xl">9. Assassino</p>
                 </div>
             </div>
-
-            <div className="text-white p-5 bg-gray-800/70 backdrop-blur-lg rounded-2xl my-3 min-w-max">
-                <h1 className="text-center text-4xl m-2">Iniciativa</h1>
+            <div>
+            <div className="text-white p-5 bg-gray-800/70 backdrop-blur-lg rounded-2xl my-3">
+                <h1 className="text-center text-4xl m-2">Ferida</h1>
                 <div id="card">
-                    <p className="text-2xl">1. Herói</p>
-                    <p className="text-2xl">2. Atleta</p>
-                    <p className="text-2xl">3. Valentona</p>
-                    <p className="text-2xl">4. Esbelto</p>
-                    <p className="text-2xl">5. Inocente</p>
-                    <p className="text-2xl">6. Nerd</p>
-                    <p className="text-2xl">7. Relaxado</p>
-                    <p className="text-2xl">8. Cética</p>
-                    <p className="text-2xl">9. Assassino</p>
+                    <div className="text-white p-5 bg-gray-900/90 backdrop-blur-lg rounded-2xl text-center text-2xl">
+                    <p>Ferida é todo e qualquer dano superficial que o personagem adquire. Caso acumule 6, o personagem morre instantaneamente.</p>
+                    </div>
                 </div>
             </div>
+            <div className="text-white p-5 bg-gray-800/70 backdrop-blur-lg rounded-2xl my-3">
+                <h1 className="text-center text-4xl m-2">Sequela</h1>
+                <div id="card">
+                    <div className="text-white p-5 bg-gray-900/90 backdrop-blur-lg rounded-2xl text-center text-2xl">
+                    <p>Sequelas são feridas graves adquiridas ao receber a ação &quot;Ferir&quot; do assassino. Sequelas tem um limite de 5 e o personagem não pode ter um número de feridas menor que seu número de sequelas.</p>
+                    </div>
+                </div>
+            </div></div>
             </div>
         </div>
         </>

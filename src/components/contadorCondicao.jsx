@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDice } from '@fortawesome/free-solid-svg-icons'
 import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons'
-import React, {useState } from "react"
-import sangue from '../assets/sangue.png'
+import { useState } from "react"
 import '../App.css';
 
 function ContadorCondicao(){

@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
 import '../App.css'
-import brutalLogo from '../assets/brutal-logo.png'
 import ContadorDado from './contadorDado.jsx';
 import ContadorTensao from './contadorTensao.jsx';
 import ContadorCondicao from './contadorCondicao.jsx';
